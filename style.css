@@ -26,10 +26,44 @@
 }
 .fa-heart{
   font-size: 58px;
-  color: #b71540;
+  color: #e84393;
   position: absolute;
   left: 3%;
   top: 3%;
+}
+
+.logo-line{
+    background: #fff;
+    width: 2px;
+    height: 35px;
+    position: absolute;
+    top: 24px;
+    left: 67px;
+    transform: skewX(-45deg);
+}
+
+.S-text{
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 26px;
+  left: 50px;
+}
+
+.W-text {
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  top: 35px;
+  left: 75px;
+}
+
+.Group-text {
+  color: #000;
+  font-size: 15px;
+  position: absolute;
+  top: 92px;
+  left: 40px;
 }
 
 .heading span{
@@ -120,8 +154,10 @@
 
 #selected-taka{
   padding: 10px 20px;
+  font-weight: 400;
   border: 1px solid #e84393;
   background: #e5b1c3;
+  color: #fff;
 }
 
 .Donate-section h5{
