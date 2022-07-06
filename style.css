@@ -540,6 +540,7 @@ form button:hover{
   margin-left: 50px;
   padding: 5px;
   transition: 0.5s;
+  border-radius: 5px;
 }
 
 .footer-section .fa-facebook:hover{
