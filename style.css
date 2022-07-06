@@ -24,6 +24,13 @@
   left: 2%;
   top: 5%;
 }
+.fa-heart{
+  font-size: 58px;
+  color: #b71540;
+  position: absolute;
+  left: 3%;
+  top: 3%;
+}
 
 .heading span{
   color: #fff;
@@ -59,6 +66,7 @@
   border: 1px solid #fff;
   outline: none;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .banner-btn:hover{
@@ -125,11 +133,11 @@
 
 .line{
   background: #333;
-  width: 500px;
+  width: 300px;
   height: 1px;
   position: absolute;
   top: 300px;
-  left: 27%;
+  left: 35%;
 }
 
 .donate-btn{
@@ -143,6 +151,12 @@
   border: 1px solid #e84393;
   outline: none;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.donate-btn:hover{
+  background: #b71540;
+  border: 1px solid #b71540;
 }
 
 /* ============< Donation Section Style End Here >============ */
@@ -218,6 +232,7 @@ left: 15px;
   position: absolute;
   top: 10px;
   left: 15px;
+  cursor: pointer;
 }
 
 
@@ -258,6 +273,7 @@ left: 15px;
   position: absolute;
   top: 10px;
   left: 15px;
+  cursor: pointer;
 }
 
 
@@ -298,6 +314,7 @@ left: 15px;
   position: absolute;
   top: 10px;
   left: 15px;
+  cursor: pointer;
 }
 
 /* ============< Donation Plan Section Style End Here >============ */
@@ -374,12 +391,15 @@ left: 15px;
   position: absolute;
   bottom: 60px;
   right: 12%;
+  transition: 0.5s;
 }
 
 .fa-phone-alt{
   color: #81ecec;
 }
-
+.Cause-of-flood .btn:hover{
+  border: 1px solid #fff
+}
 
 .Cause-of-flood h3 {
   color: #333;
@@ -411,7 +431,7 @@ left: 15px;
   font-size: 26px;
   position: absolute;
   top: 10%;
-  left: 45%;
+  left: 46%;
 }
 
 .Email-section p {
@@ -419,8 +439,8 @@ left: 15px;
   font-weight: 400;
   font-size: 16px;
   position: absolute;
-  top: 20%;
-  left: 42%;
+  top: 25%;
+  left: 47%;
 }
 
 form{
@@ -450,8 +470,12 @@ form button{
   width: 100px;
   height: 50px;
   cursor: pointer;
+  transition: 0.5s;
 }
-
+form button:hover{
+  background: #5C6BC0;
+  color: #fff;
+}
 /* ============< Email Input Section Style End Here >============ */
 
 
@@ -470,7 +494,7 @@ form button{
 .footer-section h1{
   font-size: 26px;
   font-weight: 400;
-  color: #fff;
+  color: #777;
   position: absolute;
   top: 15px;
   left: 45%;
@@ -479,7 +503,7 @@ form button{
 .footer-section p {
   font-size: 18px;
   font-weight: 400;
-  color: #fff;
+  color: #777;
   position: absolute;
   top: 90px;
   left: 43%;
@@ -489,7 +513,7 @@ form button{
 .footer-section h4 {
   font-size: 14px;
   font-weight: 400;
-  color: #fff;
+  color: #777;
   position: absolute;
   bottom: 10px;
   left: 39%;
@@ -498,7 +522,7 @@ form button{
 .footer-section h3 {
   font-size: 18px;
   font-weight: 400;
-  color: #fff;
+  color: #777;
   position: absolute;
   top: 40px;
   left: 15%;
@@ -512,9 +536,10 @@ form button{
 
 .footer-section .fa {
   font-size: 25px;
-  color: #fff;
+  color: #777;
   margin-left: 50px;
   padding: 5px;
+  transition: 0.5s;
 }
 
 .footer-section .fa-facebook:hover{
@@ -535,6 +560,7 @@ form button{
   padding: 5px;
 }
 .footer-section .fa-linkedin:hover {
+  color: #fff;
   background: #2962FF;
   padding: 5px;
 }
@@ -546,7 +572,7 @@ form button{
 }
 
 .footer-section h2{
-  color: #fff;
+  color: #777;
   font-size: 16px;
   font-weight: 400;
   margin-top: 20px;
