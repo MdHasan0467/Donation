@@ -475,10 +475,10 @@ left: 15px;
 .Email-section h1{
   color: #333;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 35px;
   position: absolute;
   top: 10%;
-  left: 46%;
+  left: 42%;
 }
 
 .Email-section p {
@@ -619,12 +619,16 @@ form button:hover{
   right: 50px;
 }
 
-.footer-section h2{
+.settings-section a{
+  display:block;
+  text-decoration: none;
   color: #777;
   font-size: 16px;
   font-weight: 400;
   margin-top: 20px;
 }
 
-
+.settings-section a:hover{
+  color: #fff;
+}
 /* ============< Footer Section Style End Here >============ */
